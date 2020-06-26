@@ -1,0 +1,32 @@
+/* Soluzione Es. 1 */
+
+.ex-1-square {
+    background: white;
+    transition: background 0.5s;
+}
+
+.ex-1-square:hover {
+    background: red;
+}
+
+/* Soluzione Es. 2 */
+
+.ex-2-square {
+    width: 100px;
+    transition: width 0.5s;
+}
+
+.ex-2-square:active {
+    width: 700px;
+}
+
+/* Soluzione Es. 3 */
+
+.ex-3-square {
+    border-radius: 0;
+    transition: border-radius 0.5s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50px;
+}
