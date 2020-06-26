@@ -60,8 +60,41 @@
     height: 30px;
 }
 
+/* Soluzione Es. 6 */
+
+#ex-6:hover {
+    filter: grayscale(1);
+}
+
 /* Soluzione Es. 7 */
 
-img:hover {
-    filter: grayscale(1);
+#ex-7 {
+    transition: 0.7s;
+}
+
+#ex-7:hover {
+    filter: sepia(1) drop-shadow(8px 8px 10px gray);
+}
+
+/* Soluzione Es. 8 */
+
+#ex-8:hover {
+    transition: 0.5s;
+}
+
+#ex-8:hover {
+    filter: saturate(2) blur(1px);
+    border-radius: 7px;
+}
+
+/* Soluzione Es. 9 */
+
+#ex-9:hover {
+    transition: 0.5s;
+}
+
+#ex-9:hover {
+    filter: blur(1px) grayscale(1);
+    border-radius: 7px;
+    transform: scale(1.3);
 }
