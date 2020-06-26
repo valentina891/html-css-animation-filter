@@ -30,3 +30,38 @@
 .ex-3-square:hover {
     border-radius: 50px;
 }
+
+/* Soluzione Es. 4 */
+
+.ex-4-square {
+    background: red;
+    transition: background 0.5s;
+}
+
+.ex-4-square:hover {
+    background: none;
+}
+
+/* Soluzione Es. 5 */
+
+.ex-5-square {
+    width: 60px;
+    height: 60px;
+    transition: all 0.5s;
+}
+
+.ex-5-square:hover {
+    width: 90px;
+    height: 90px;
+}
+
+.ex-5-square:active {
+    width: 30px;
+    height: 30px;
+}
+
+/* Soluzione Es. 7 */
+
+img:hover {
+    filter: grayscale(1);
+}
